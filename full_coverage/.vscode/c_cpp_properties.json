@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/zetabank/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/zetabank/catkin_ws/src/asr_ftc_local_planner/include/**",
+                "/home/zetabank/catkin_ws/src/asr_move_base/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/zetabank_autonomous_driving/autonomous_navigation/include/**",
+                "/home/zetabank/catkin_ws/src/depthimage_to_laserscan/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/diffwheel_robot_control/include/**",
+                "/home/zetabank/catkin_ws/src/heatmap/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/imu_tools/imu_complementary_filter/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/imu_tools/imu_filter_madgwick/include/**",
+                "/home/zetabank/catkin_ws/src/asr_nav_core/include/**",
+                "/home/zetabank/catkin_ws/src/realsense2_camera/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/robot_localization/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/sick_scan/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/sick_tim/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/zetabank_simulation/zetabank_fake/include/**",
+                "/home/zetabank/catkin_ws/src/zetabank_robot_control/zetabank_simulation/zetabank_gazebo/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

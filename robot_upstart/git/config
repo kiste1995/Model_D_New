@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = http://github.com/clearpathrobotics/robot_upstart.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "noetic-devel"]
+	remote = origin
+	merge = refs/heads/noetic-devel

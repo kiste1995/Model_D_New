@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="robot_control_gui" type="ZBMRGS.py" name="ZBMRGS" output="screen">
+    <param name="root_dir" value="/home/zetabank/catkin_ws/src/robot_control_gui" />
+    <!-- <param name="root_dir" value="$(find robot_control_gui)" /> -->
+    <param name="wp_dir" value="/home/zetabank/catkin_ws/src/navi_waypoint" />
+    <!-- <param name="wp_dir" value="$(find navi_waypoint)" /> -->
+    <param name="robot_id" value="DI_1" />
+    <param name="auto_start" value="False" />      
+  </node>
+
+</launch>

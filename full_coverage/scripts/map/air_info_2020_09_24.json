@@ -1,0 +1,177 @@
+[
+    {
+        "Ultrafine_dust": "1", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "2", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "1", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "1"
+    }, 
+    {
+        "Ultrafine_dust": "1", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "2", 
+        "Ultrafine_dust": "3"
+    }, 
+    {
+        "Ultrafine_dust": "3", 
+        "Fine_dust": "2", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "2", 
+        "Ultrafine_dust": "3"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "3", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "3"
+    }, 
+    {
+        "Ultrafine_dust": "5", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "5"
+    }, 
+    {
+        "Ultrafine_dust": "4", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "0", 
+        "Ultrafine_dust": "4"
+    }, 
+    {
+        "Ultrafine_dust": "4", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "0", 
+        "Ultrafine_dust": "4"
+    }, 
+    {
+        "Ultrafine_dust": "4", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "0", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "0", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "0", 
+        "Ultrafine_dust": "2"
+    }, 
+    {
+        "Ultrafine_dust": "2", 
+        "Fine_dust": "0", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "1", 
+        "Ultrafine_dust": "1"
+    }, 
+    {
+        "Ultrafine_dust": "1", 
+        "Fine_dust": "1", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "9", 
+        "Ultrafine_dust": "13"
+    }, 
+    {
+        "Ultrafine_dust": "13", 
+        "Fine_dust": "9", 
+        "cell_name": ""
+    }, 
+    {
+        "cell_name": "", 
+        "Fine_dust": "10", 
+        "Ultrafine_dust": "13"
+    }, 
+    {
+        "Ultrafine_dust": "13", 
+        "Fine_dust": "10", 
+        "cell_name": ""
+    }
+]

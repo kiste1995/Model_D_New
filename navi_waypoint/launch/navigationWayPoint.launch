@@ -1,0 +1,14 @@
+<launch>
+
+  <node pkg="navi_waypoint" type="navigation_waypoints_node"  name="navigation_waypoints" output="screen" required="true">  
+    <param name="waypoints_filename" value="$(find navi_waypoint)/config/waypoint_221122.yaml"/>
+    <!-- <param name="waypoints_filename" value="$(find navi_waypoint)/config/waypoint6.yaml"/> -->
+    <param name="abort_mode" value="back"/>
+    <param name="back_time" value="3.0"/>
+    <param name="th_reardist" value="30.0"/>
+    <param name="th_frontdist" value="20.0"/>
+    <param name="low_soc" value="60.0"/>
+    
+  </node>
+
+</launch>

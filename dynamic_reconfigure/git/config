@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/ros/dynamic_reconfigure.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "noetic-devel"]
+	remote = origin
+	merge = refs/heads/noetic-devel

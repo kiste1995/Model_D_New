@@ -1,0 +1,259 @@
+waypoints:
+  - name: point1
+    frame_id: map
+    pose:
+      position:
+        x: 2.98232631384
+        y: -16.0742579826
+        z: 0.0
+      angle:
+        yaw: 1.01076774706       
+  - name: point2
+    frame_id: map
+    pose:
+      position:
+        x: 15.3946142001
+        y: -16.0381432707
+        z: 0.0
+      angle:
+        yaw: -0.926212074378
+  - name: point3
+    frame_id: map
+    pose:
+      position:
+        x: 28.3287039407
+        y: -16.3703758224
+        z: 0.0
+      angle:
+        yaw: -6.52882679668
+  - name: point4
+    frame_id: map
+    pose:
+      position:
+        x: 28.5655980826
+        y: -8.47911281513
+        z: 0.0
+      angle:
+        yaw: 88.5170345926
+  - name: point5
+    frame_id: map
+    pose:
+      position:
+        x: 15.338686231
+        y: -7.97003708577
+        z: 0.0
+      angle:
+        yaw: 178.967321063
+  - name: point6
+    frame_id: map
+    pose:
+      position:
+        x: 2.9638615948
+        y: -8.14992909815
+        z: 0.0
+      angle:
+        yaw: -178.69439147
+  - name: point7
+    frame_id: map
+    pose:
+      position:
+        x: -4.07436547597
+        y: -8.28373499834
+        z: 0.0
+      angle:
+        yaw: 177.266569767
+  - name: point8
+    frame_id: map
+    pose:
+      position:
+        x: -4.04883703306
+        y: -16.0366721616
+        z: 0.0
+      angle:
+        yaw: -74.1379435448
+  - name: point9
+    frame_id: map
+    pose:
+      position:
+        x: -1.97501059336
+        y: -16.0851052466
+        z: 0.0
+      angle:
+        yaw: 2.24735506776
+  - name: point10
+    frame_id: map
+    pose:
+      position:
+        x: 15.1369190244
+        y: -8.68967189782
+        z: 0.0
+      angle:
+        yaw: 91.5491099808
+  - name: point11
+    frame_id: map
+    pose:
+      position:
+        x: 28.5609484552
+        y: -8.37079213562
+        z: 0.0
+      angle:
+        yaw: -89.4006681229
+  - name: point12
+    frame_id: map
+    pose:
+      position:
+        x: 28.2984426084
+        y: -16.1376708881
+        z: 0.0
+      angle:
+        yaw: -92.8211223232
+  - name: point13
+    frame_id: map
+    pose:
+      position:
+        x: 15.3678776525
+        y: -16.0024020409
+        z: 0.0
+      angle:
+        yaw: 178.137104063
+  - name: point14
+    frame_id: map
+    pose:
+      position:
+        x: 2.98337629365
+        y: -16.086523706
+        z: 0.0
+      angle:
+        yaw: -178.398374766
+  - name: point15
+    frame_id: map
+    pose:
+      position:
+        x: -3.61137478014
+        y: -16.0996381831
+        z: 0.0
+      angle:
+        yaw: -171.919297874
+  - name: point16
+    frame_id: map
+    pose:
+      position:
+        x: -4.0342894757
+        y: -8.55862496291
+        z: 0.0
+      angle:
+        yaw: 90.4625409238
+  - name: point17
+    frame_id: map
+    pose:
+      position:
+        x: 3.07145597492
+        y: -8.14441233128
+        z: 0.0
+      angle:
+        yaw: 0.344006487365
+  - name: point18
+    frame_id: map
+    pose:
+      position:
+        x: 15.4482103459
+        y: -7.98128242299
+        z: 0.0
+      angle:
+        yaw: -1.72033834511
+  - name: point19
+    frame_id: map
+    pose:
+      position:
+        x: 14.9787532645
+        y: -15.5999079078
+        z: 0.0
+      angle:
+        yaw: -89.407734009
+  - name: point20
+    frame_id: map
+    pose:
+      position:
+        x: 2.98982833986
+        y: -16.0874022844
+        z: 0.0
+      angle:
+        yaw: -82.875793841
+  - name: chargpos
+    frame_id: map
+    pose:
+      position:
+        x: 0.202687357889
+        y: -23.5289440969
+        z: 0.0
+      angle:
+        yaw: -100.788743557
+  - name: finalpos
+    frame_id: map
+    pose:
+      position:
+        x: 0.23660365528
+        y: -21.1260073009
+        z: 0.0
+      angle:
+        yaw: 93.6565186701
+
+trajectories:
+  - name: Traj1
+    waypoints:
+    - point9
+    - point1
+    - point2
+    - point3
+    - point4
+    - point5
+    - point6
+    - point7
+    - point8
+    - point9
+  - name: Traj2
+    waypoints:
+    - point9
+    - point15
+    - point16
+    - point17
+    - point18
+    - point11
+    - point12
+    - point13
+    - point14
+    - point9
+  - name: Traj3
+    waypoints:
+    - point9
+    - point1
+    - point2
+    - point10
+    - point11
+    - point12
+    - point13
+    - point10
+    - point6
+    - point7
+    - point8
+    - point9
+  - name: Traj4
+    waypoints:
+    - point9
+    - point15
+    - point16
+    - point17
+    - point18
+    - point19
+    - point3
+    - point4
+    - point5
+    - point19
+    - point14
+    - point9
+  - name: Traj5
+    waypoints:
+    - point9
+    - finalpos
+    - chargpos
+    

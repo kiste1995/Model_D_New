@@ -1,0 +1,11 @@
+float64 x
+float64 y
+int64 rotation_flag
+bool[4] wall
+int32 direction
+bool arrival
+bool start_flag
+float64 x_pre
+float64 y_pre
+int64 next_rotation_flag
+string cell_name

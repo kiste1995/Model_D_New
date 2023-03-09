@@ -1,0 +1,32 @@
+robot_id : "model_c_2.1"
+
+###log_save_falg
+battery_log_save_flag : True
+air_log_save_flag : True
+
+###pose_setting
+start_pose : {                      #home. 로봇 시동할 시에 좌표점
+    position_x : 0.367035052852,
+    position_y : 0.346343120208,
+    orientation_z : 0.0107855358434,
+    orientation_w : 0.999941834417
+}
+charging_station_pose : {           #충전스테이션 도킹 진입시 좌표점
+    position_x : -2.4672564,
+    position_y : 0.405325243272,
+    degree : 166.524429112
+}
+docked_pose : {
+    position_x : -2.47221227897,
+    position_y : 0.400353022836,
+    orientation_z : 0.99991129269,
+    orientation_w : 0.013319412564
+}
+robot_init_pose : {                 #도킹 진입시 로컬라이제이션 조정 좌표
+    position_x : -2.47221227897,
+    position_y : 0.400353022836,
+    orientation_z : 0.99991129269,
+    orientation_w : 0.013319412564
+}
+
+server_url : "http://192.168.0.51:8000/file/upload/"

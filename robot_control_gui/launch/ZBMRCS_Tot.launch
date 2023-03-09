@@ -1,0 +1,20 @@
+<launch>
+
+    <rosparam file="$(find zetabot_main)/param/normal_operater_tot.yaml" command="load" />
+
+    <!-- <include file="$(find zetabank_bringup)/launch/zetabank_robot_serial.launch"/> -->
+
+    <include file="$(find zetabank_bringup)/launch/zetabank_robot.launch"/>
+
+    <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch"/>
+
+    <include file="$(find zetabot_main)/launch/operate_robot.launch"/>
+    
+    <include file="$(find autocharge)/launch/parkingcs.launch"/>
+
+    <include file="$(find zetabank_navigation)/launch/normal_navigation.launch"/>
+
+    <include file="$(find navi_waypoint)/launch/navigationWayPoint.launch"/>
+    
+
+</launch>

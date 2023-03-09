@@ -1,0 +1,7 @@
+waypoints:
+trajectories:
+  - name: goto_pos1
+    waypoints:
+    - name1
+    - name2
+    - name3

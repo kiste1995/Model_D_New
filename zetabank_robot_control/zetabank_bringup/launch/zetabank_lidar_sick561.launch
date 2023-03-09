@@ -1,0 +1,8 @@
+<launch>
+  <!-- <include file="$(find sick_tim)/launch/sick_tim551_2050001.launch" />  -->
+
+ <include file="$(find sick_tim)/launch/sick_tim551_2050001_scan_1.launch" />  
+
+   <!-- <include file="$(find sick_scan)/launch/sick_tim_5xx_twin.launch" /> -->
+ 
+</launch>

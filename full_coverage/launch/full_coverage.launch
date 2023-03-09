@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg="full_coverage" type="lidar_filter.py" name="lidar_filter"/>
+
+<node pkg="full_coverage" type="cell_tracer_server.py" name="cell_tracer"/>
+
+<node pkg="full_coverage" type="image.py" name="full_coverage_path"/>
+
+</launch>

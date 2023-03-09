@@ -1,0 +1,19 @@
+<launch>
+
+  <rosparam file="$(find zetabot_main)/param/normal_operater_tot.yaml" command="load" />
+  <!-- <rosparam file="$(find zetabot_main)/param/normal_operater_office.yaml" command="load" /> -->
+
+  <include file="$(find zetabank_bringup)/launch/zetabank_remote.launch" />
+  
+  <include file="$(find zetabank_bringup)/launch/zetabank_lidar_sick561.launch"/>
+
+  <!-- <include file="$(find depthimage_to_laserscan)/launch/multi_laser.launch" >
+    <arg name="serial_no_1" value="137322079625"/>
+    <arg name="serial_no_2" value="135122076655"/>
+  </include> -->
+
+  <include file="$(find zeta_mdrobot_motor_control)/launch/mdmc.launch" />
+
+  <!-- <include file="$(find zetabank_diagnostics)/launch/diagnostics.launch" /> -->
+  
+</launch>

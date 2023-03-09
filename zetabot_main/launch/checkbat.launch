@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="zetabot_main" type="battery_log.py" name="battery_log" respawn="true"/>
+
+</launch>

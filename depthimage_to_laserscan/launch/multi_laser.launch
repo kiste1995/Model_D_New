@@ -1,0 +1,61 @@
+<launch>
+
+    <arg name="serial_no_1"/>
+    <arg name="serial_no_2"/>
+
+<!-- real_sense on-->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <!-- <include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch"> -->
+    <!-- all vars that included.launch requires must be set -->
+        <arg name="camera" value="cam_1" />
+        <!-- <arg name="serial_no" value="135122073059" /> -->
+        <arg name="serial_no" value="$(arg serial_no_1)" />
+        <arg name="device_type" value="d435" />
+        <arg name="align_depth" value="true" />
+        <!-- <arg name="initial_reset" value="true" /> -->
+
+    </include>
+
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <!-- <include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch"> -->
+    <!-- all vars that included.launch requires must be set -->
+        <arg name="camera" value="cam_2" />
+        <!-- <arg name="serial_no" value="116622071722" /> -->
+        <arg name="serial_no" value="$(arg serial_no_2)" />
+        <arg name="device_type" value="d435" />
+        <arg name="align_depth" value="true" />
+        <!-- <arg name="initial_reset" value="true" /> -->
+        
+
+    </include>
+
+<!-- run multi laserscan node-->
+    <!-- <node pkg= "depthimage_to_laserscan" type= "depthimage_to_laserscan" name="depthimage_to_laserscan_cam1" args=""> -->
+    <node pkg= "depthimage_to_laserscan" type= "depthimage_to_laserscan" name="depthimage_to_laserscan_cam1" args="load depthimage_to_laserscan/DepthImageToLaserScanNodelet laserscan_nodelet_manager" required="true">
+        <remap from="image" to="/cam_1/aligned_depth_to_color/image_raw"/>
+        <!-- <param name="output_frame" value="camera_1_depth"/> -->
+        <remap from="camera_info" to="/cam_1/color/camera_info"/>
+        <remap from="scan" to="/laserscan1"/>
+        <param name="scan_height"     type="int"    value="1"/>
+        <param name="scan_time"       type="double" value="0.033"/>
+        <param name="range_min"       type="double" value="0.2"/>
+        <param name="range_max"       type="double" value="0.35"/>
+        <param name="output_frame" type="str"    value="camera_1_depth"/>
+        <!-- <param name="output_frame_id" type="str"    value="cam1_depth_frame"/> -->
+	
+    </node>
+    <!-- <node pkg= "depthimage_to_laserscan" type= "depthimage_to_laserscan" name="depthimage_to_laserscan_cam2" args=""> -->
+    <node pkg= "depthimage_to_laserscan" type= "depthimage_to_laserscan" name="depthimage_to_laserscan_cam2" args="load depthimage_to_laserscan/DepthImageToLaserScanNodelet laserscan_nodelet_manager" required="true">
+        <remap from="image" to="/cam_2/aligned_depth_to_color/image_raw"/>
+        <!-- <param name="output_frame" value="camera_2_depth"/> -->
+        <remap from="camera_info" to="/cam_2/color/camera_info"/>
+        <remap from="scan" to="/laserscan2"/>
+        <param name="scan_height"     type="int"    value="1"/>
+        <param name="scan_time"       type="double" value="0.033"/>
+        <param name="range_min"       type="double" value="0.2"/>
+        <param name="range_max"       type="double" value="0.35"/>
+        <param name="output_frame" type="str"    value="camera_2_depth"/>
+        <!-- <param name="output_frame_id" type="str"    value="cam_2_depth_frame"/> -->
+    </node>
+    
+</launch>

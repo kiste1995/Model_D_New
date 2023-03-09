@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="ai_platform" type="jetson_client.py" name="jetson_starter" output="screen"/>
+
+    <node name="say_something" pkg="ai_platform"  type="say_something.py" output="screen">
+        <param name="ditect_dis" type="int" value="2000" />
+        <param name="ditect_class" value="person" />
+        <param name="get_param_test" value="get_param_done" />
+    </node>
+
+    <node name="darknet_depth_center" pkg="ai_platform" type="darknetCenter_rgb_stream.py" output="screen"/>
+<!-- 직접 rosparam setting -->
+</launch>

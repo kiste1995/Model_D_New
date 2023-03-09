@@ -1,0 +1,10 @@
+<launch>
+
+    <include file="$(find zetabank_bringup)/launch/zetabank_remote.launch" />
+
+  <include file="$(find depthimage_to_laserscan)/launch/multi_laser.launch" >
+    <arg name="serial_no_1" value="135122073059"/>
+    <arg name="serial_no_2" value="116622071722"/>
+  </include>
+
+</launch>
